@@ -8,6 +8,13 @@ function mouseIn(div) {
 }
 
 function mouseOut(div) {
+    let opacity = div.style.opacity;
+
+    if (+opacity < 1) {
+        opacity = +opacity + .1;
+        div.style.opacity = `${opacity}`;
+    }
+
     div.style.backgroundColor = "black";
 }
 
