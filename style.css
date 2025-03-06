@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container {
+    height: 90vh;
+    width: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.pixel {
+    box-sizing: border-box;
+    width: 6.25%;
+    height: same-as-width;
+    border: 1px solid black;
+}
